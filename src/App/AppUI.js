@@ -13,6 +13,7 @@ function AppUI({
   searchedTodos,
   completeTodo,
   deleteTodo,
+  // saveTodos,
 }) {
   return (
     <React.Fragment>
@@ -33,8 +34,18 @@ function AppUI({
       </TodoList>
 
       <CreateTodoButton />
+      {/* <p
+      onClick={() => saveTodos([
+        { text: "Cortar cebolla", completed: true },
+        { text: "Tomar el curso de intro a React", completed: false },
+        { text: "Llorar con la llorona", completed: false },
+        { text: "Lalala", completed: false },
+     ])}
+      >
+        Haz me clic
+      </p> */}
     </React.Fragment>
   );
 }
-
+  
 export { AppUI };
