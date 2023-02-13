@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+// import './index.css';
 
 ReactDOM.render(
-    <App saludo="Holi">
-      <h1>
-        Esto es un título
-      </h1>
-    </App>,
+    <App />,
   document.getElementById('root')
 );
